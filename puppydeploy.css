@@ -1,0 +1,8 @@
+/* CSS declarations go here */
+body {
+  font-family: "Georgia";
+}
+
+#puppies img {
+  margin: 15px;
+}

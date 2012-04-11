@@ -1,0 +1,26 @@
+<head>
+  <title>Puppies!</title>
+</head>
+
+<body>
+  {{> puppy}}
+  <div id="puppies">
+    
+  </div>
+  <div id="footer">
+    A simple demo of <a href="http://meteor.com/">Meteor</a> by Kevin Cantwell
+  </div>
+  <div style="font-size:0.8em;font-style:italic">Thanks to <a href="http://www.randomdoggiegenerator.com">www.randomdoggiegenerator.com</a> (whose permission I did not get) for the use of it's amazing puppy generating super computer.</div>
+</body>
+
+<template name="puppy">
+  <div class="puppy">
+    <h1>Puppy Deploy</h1>
+    <h2>Where strangers can send cute puppies to each other</h2>
+    <input type="button" value="Show all visitors to this site a random puppy!" />
+    <p/>
+    <div>Just saving the world here, one puppy at a time...</div>
+    <p/>
+    <div><span id="puppy_count">{{puppy_count}}</span> puppies have been deployed so far.</div>
+  </div>
+</template>
