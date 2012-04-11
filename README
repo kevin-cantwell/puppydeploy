@@ -1,0 +1,5 @@
+A simple app to demo the new MeteorJS framework.
+
+Pushes randomly generated puppy images to all current visitors.
+
+http://earthshattering.meteor.com/
